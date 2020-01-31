@@ -1,3 +1,0 @@
-[formatter "./Format.go"] 
-  path = ./Format.go 
-  url = git://github.com/ranjithrajendran/formatter

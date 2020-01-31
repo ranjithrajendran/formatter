@@ -10,7 +10,7 @@ import (
 func ReadableIndianCash(num float64) string {
 
 	// seperate decimal and integer part
-	main, fraction := math.Modf(num)
+	main, fraction := math.Modf(math.Round(num*100) / 100)
 
 	// Round offing the fraction to 2 decimal ponit
 	fractionString := fmt.Sprintf("%.2f", fraction)[1:]
