@@ -33,8 +33,8 @@ func main() {
   fmt.Println(formatter.ReadableIndianCash(5462.54673742))
   // will print 5,462.55
   
-  fmt.Println(formatter.ReadableIndianCash(345676.63490))
-  // will print 3,45,676.63
+  fmt.Println(formatter.ReadableIndianCash(345676.9999))
+  // will print 3,45,677.00
   
   // max limit
   fmt.Println(formatter.ReadableIndianCash(99999999999999.9899999))
