@@ -1,3 +1,3 @@
 # formatter
-[![GoDoc Widget]][GoDoc]
+[![GoDoc Widget]][GoDoc] [![Travis Widget]][Travis]
 This is a Golang utility package to make the normal float amount to a easily readable format
