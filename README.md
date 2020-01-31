@@ -14,7 +14,7 @@
 
 **function signature:** `func ReadableIndianCash(num float64) string`
 
-**functionality:** This program convers the normal float amount to indian cash format.
+**functionality:** This program convers the normal float amount to indian cash string format.
 
 **example**
 
